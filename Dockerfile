@@ -9,4 +9,4 @@ WORKDIR /camera-ip-capturing
 COPY . .
 
 # Install requirements
-RUN pip3 install -r requirements.txt --no-cache-dir
+RUN pip3 install -r requirements.txt
