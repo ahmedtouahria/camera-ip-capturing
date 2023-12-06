@@ -1,0 +1,18 @@
+version: "3.8"
+
+
+services:
+  # vulnvision service
+  camera_ip_capturing:
+    sysctls:
+      - net.ipv4.tcp_window_scaling=1
+      - net.ipv4.tcp_congestion_control=cubic
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: camera_ip_capturing:latest
+    container_name: camera_ip_capturing
+    restart: always
+    command: python dahua.py
+    volumes:
+      - .:/camera-ip-capturing
