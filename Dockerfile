@@ -30,7 +30,7 @@ RUN apt-get clean && \
         libboost-python-dev libboost-thread-dev libatlas-base-dev libavcodec-dev \
         libavformat-dev libavutil-dev libcanberra-gtk3-module libeigen3-dev \
         libglew-dev libgl1-mesa-dev libgl1-mesa-glx libglib2.0-0 libgtk2.0-dev \
-        libgtk-3-dev libjpeg-dev libjpeg8-dev libjpeg-turbo8-dev liblapack-dev \
+        libgtk-3-dev libjpeg-dev liblapack-dev libjpeg62-turbo-dev \
         liblapacke-dev libopenblas-dev libopencv-dev libpng-dev libpostproc-dev \
         libpq-dev libsm6 libswscale-dev libtbb-dev libtbb2 libtesseract-dev \
         libtiff-dev libtiff5-dev libv4l-dev libx11-dev libxext6 libxine2-dev \
