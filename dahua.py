@@ -9,6 +9,7 @@ cap = cv2.VideoCapture(rtsp_url)
 # Set the buffer size to a reasonable value
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
 
+
 def process_frame(frame):
     # Perform minimal frame processing here
     # Avoid comple  operations or excessive image manipulation
