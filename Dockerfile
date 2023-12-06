@@ -35,7 +35,7 @@ RUN apt-get clean && \
         libpq-dev libsm6 libswscale-dev libtbb-dev libtbb2 libtesseract-dev \
         libtiff-dev libtiff5-dev libv4l-dev libx11-dev libxext6 libxine2-dev \
         libxrender-dev libxvidcore-dev libx264-dev libgtkglext1 libgtkglext1-dev \
-        libvtk9-dev libdc1394-dev libgstreamer-plugins-base1.0-dev \
+        libgstreamer-plugins-base1.0-dev \
         libgstreamer1.0-dev libopenexr-dev \
         openexr \
         pkg-config \
